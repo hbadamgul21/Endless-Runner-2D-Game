@@ -130,7 +130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreGiven: 20
-  coinSound: {fileID: 0}
 --- !u!1 &2139386421674479643
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,7 +299,7 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.49, y: 0.29}
+  m_Offset: {x: 0.4, y: 0.2}
   serializedVersion: 2
   m_Radius: 0.03
 --- !u!114 &6580855888754591311
@@ -457,7 +456,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreGiven: 20
-  coinSound: {fileID: 0}
 --- !u!1 &7932396395489461531
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,7 +586,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreGiven: 20
-  coinSound: {fileID: 0}
 --- !u!1 &8636330438230220538
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,4 +716,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreGiven: 20
-  coinSound: {fileID: 0}

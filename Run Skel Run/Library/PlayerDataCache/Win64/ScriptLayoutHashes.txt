@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/Hamid/Desktop/GAME/Run Skel Run/Builds/Run Skel Run!.exe
+C:/Users/Hamid/Desktop/GAMES/RunSkelRunGame/Run Skel Run/Builds/Run Skel Run!.exe
 SceneListBegin?
 Assets/Scenes/Main Menu.unity
 Assets/Scenes/SampleScene.unity
