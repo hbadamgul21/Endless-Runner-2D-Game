@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7994410046405387821}
   - component: {fileID: 2665493466316007029}
-  - component: {fileID: 8741494202876091022}
+  - component: {fileID: 962018506785790981}
   m_Layer: 0
   m_Name: enemyJumpPoint
   m_TagString: platformTOP
@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589725027952987500}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.0092, y: -0.044, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 77139949955431844}
@@ -169,7 +169,7 @@ CircleCollider2D:
   m_Offset: {x: 0.3, y: 0.35}
   serializedVersion: 2
   m_Radius: 0.005
---- !u!114 &8741494202876091022
+--- !u!114 &962018506785790981
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

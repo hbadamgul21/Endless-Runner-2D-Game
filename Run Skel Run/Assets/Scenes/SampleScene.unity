@@ -429,7 +429,7 @@ PrefabInstance:
     - target: {fileID: 2139386421674479638, guid: d4f3c687e436fb844958279b786a378f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.9
+      value: 7.13
       objectReference: {fileID: 0}
     - target: {fileID: 2139386421674479638, guid: d4f3c687e436fb844958279b786a378f,
         type: 3}
@@ -643,7 +643,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -66}
+  m_AnchoredPosition: {x: 0, y: -81}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &432446691
@@ -1777,7 +1777,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -110}
+  m_AnchoredPosition: {x: 0, y: -120.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &831741900
@@ -2020,8 +2020,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996391873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.24, y: 0.02, z: -0.92}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalPosition: {x: -12.1, y: 0.06, z: -1.6}
+  m_LocalScale: {x: 0.27, y: 0.29, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -2039,7 +2039,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.62, y: 0.04}
+  m_Offset: {x: -0.62, y: -0.37}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2050,7 +2050,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.16, y: 5.88}
+  m_Size: {x: 3.16, y: 5.11}
   m_EdgeRadius: 0
 --- !u!50 &996391878
 Rigidbody2D:
@@ -2106,7 +2106,7 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.08, y: -0.2}
+  m_Offset: {x: 1.81, y: -0.2}
   m_Size: {x: 0.47, y: 5.49}
   m_Direction: 0
 --- !u!1 &1097019608
@@ -3159,7 +3159,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728325707}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.22, y: -0.07, z: -0.9}
+  m_LocalPosition: {x: -10.22, y: -0.07, z: -1.6}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3421,7 +3421,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000012398, y: -24}
+  m_AnchoredPosition: {x: 0.000012398, y: 6}
   m_SizeDelta: {x: 888.5, y: 169.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039995241
@@ -3449,7 +3449,7 @@ MonoBehaviour:
     m_FontSize: 61
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 5
     m_MaxSize: 69
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -3457,7 +3457,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: YOU DIED! Or ENEMY DIED.
+  m_Text: 'YOU DIED or ENEMY DIED or
+
+    ENEMY PASSED YOU'
 --- !u!222 &2039995242
 CanvasRenderer:
   m_ObjectHideFlags: 0

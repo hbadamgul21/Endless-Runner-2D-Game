@@ -5,7 +5,7 @@ using UnityEngine;
 public class PickUpCoins : MonoBehaviour
 {
     public int scoreGiven;
-
+    
     private ScoreKeeper scoreKeeper;
 
     private AudioSource coinSound;
@@ -13,13 +13,13 @@ public class PickUpCoins : MonoBehaviour
     void Start()
     {
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
-
+               
         coinSound = GameObject.Find("CoinSound").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
+
         
     }
 

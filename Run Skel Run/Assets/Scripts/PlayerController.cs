@@ -12,8 +12,9 @@ public class PlayerController : MonoBehaviour
     public bool Isgrounded;
     public LayerMask whatIsGround;
 
+    private Transform enem;
     public GameManager GM;
-
+    private float enemyX = 0.0f;
     public AudioSource jumpSound, deadSound;
 
     private Collider2D myCollider;
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
         rgb = GetComponent<Rigidbody2D>();
         myCollider = GetComponent<Collider2D>();
         Anim = GetComponent<Animator>();
+        enem = GameObject.Find("EnemyKnight").transform;
     }
 
     // Update is called once per frame
@@ -46,6 +48,22 @@ public class PlayerController : MonoBehaviour
 
         Anim.SetFloat("Speed", rgb.velocity.x);
         Anim.SetBool("Grounded", Isgrounded);
+
+        //If enemy infront player, then end game.
+        if (enem)
+        {
+            enemyX = enem.position.x;
+            if(enemyX > transform.position.x)
+            {
+                EnemyPassPlayer();
+            }
+        }
+    }
+
+    void EnemyPassPlayer()
+    {
+        GM.RestartGame();
+        deadSound.Play();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
